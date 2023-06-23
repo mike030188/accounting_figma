@@ -12,12 +12,13 @@ import Settings from './components/pages/Settings';
 import Trash from './components/pages/Trash';
 
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div style={{display:'flex'}}>
-    
+  <div style={{display:'flex'}}>    
     <BrowserRouter>
-    <SideBar />
+    <SideBar />   
       <Routes>
         <Route path="/" element={<Dashboard/>} />
         <Route path="/accounting" element={<Accounting/>} />
