@@ -20,15 +20,15 @@ function Accounting() {
               <CiSearch style={{marginLeft:'10px'}}></CiSearch>
               <p style={{paddingLeft:'10px', fontSize:'14px', color:'#969BA0'}}>Search...</p>
             </div>
-            <div style={{display:'flex', alignItems: 'center', backgroundColor:'#fff', border: '1px solid #D6D6D6', borderRadius: '5px', width: '112px', height:"42px", marginRight:"12px"}}>
-              <FontAwesomeIcon icon={faChevronDown} size="xs" style={{paddingLeft:'10px', cursor:'pointer'}}/>
+            <div style={{display:'flex', alignItems: 'center', backgroundColor:'#fff', border: '1px solid #D6D6D6', borderRadius: '5px', width: '112px', height:"42px", marginRight:"12px", cursor:'pointer'}}>
+              <FontAwesomeIcon icon={faChevronDown} size="xs" style={{paddingLeft:'10px'}}/>
               <p style={{paddingLeft:'8px', fontSize:'14px', color:'#212121'}}>New first</p>
             </div>
-            <div style={{display:'flex', alignItems: 'center', backgroundColor:'#fff', border: '1px solid #D6D6D6', borderRadius: '5px', width: '118px', height:"42px", marginRight:"12px"}}>
-              <FontAwesomeIcon icon={faChevronDown} size="xs" style={{paddingLeft:'9px', cursor:'pointer'}}/>
+            <div style={{display:'flex', alignItems: 'center', backgroundColor:'#fff', border: '1px solid #D6D6D6', borderRadius: '5px', width: '118px', height:"42px", marginRight:"12px", cursor:'pointer'}}>
+              <FontAwesomeIcon icon={faChevronDown} size="xs" style={{paddingLeft:'9px'}}/>
               <p style={{paddingLeft:'8px', fontSize:'14px', color:'#212121'}}>Show only</p>
             </div>
-            <div style={{display:'flex', alignItems: 'center', fontWeight:'600px', backgroundColor:'#5850EC', border: '1px solid #2BACE2', borderRadius: '5px', width: '144px', height:"42px", marginRight:"30px"}}>
+            <div style={{display:'flex', alignItems: 'center', fontWeight:'600px', backgroundColor:'#5850EC', border: '1px solid #2BACE2', borderRadius: '5px', width: '144px', height:"42px", marginRight:"30px", cursor:'pointer'}}>
               <FaPlus style={{color: 'white', marginLeft:'10px'}} ></FaPlus>
               <p style={{paddingLeft:'10px', fontSize:'14px', color:'white'}}>Add account</p>
             </div>
